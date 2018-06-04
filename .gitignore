@@ -1,0 +1,5 @@
+# do not track the following files
+.vscode/
+.DS_Store
+bin/
+build/
