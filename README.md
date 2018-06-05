@@ -6,7 +6,7 @@ The compilation process is also automated with *cmake* and *makefile*.
 
 ### Clone the repo
 ```bash
-git clone https://github.com/society765/call_fortran_from_cpp.git
+$ git clone https://github.com/society765/call_fortran_from_cpp.git
 ```
 
 ### First time
@@ -17,7 +17,7 @@ to fit your PC, Mac, or Linux.
 After you updated the compiler options, 
 stay in the root directory of the project, and run
 ```bash
-make init
+$ make init
 ```
 This will use *cmake* to generate the makefile in `./build` directory 
 that could automatically compile and link 
@@ -27,7 +27,7 @@ our C++ and Fortran sources and objects.
 After the above initialization process, still stay in the 
 root directory of the project, and run 
 ```bash 
-make
+$ make
 ```
 A binary executable will be generated at the default location `./bin/a.out`. 
 You may simply run `make` any time you want to re-build the project. 
@@ -37,7 +37,7 @@ If there are any bugs in the building process,
 or if you want to remove the cmake building stuffs, 
 you may run 
 ```bash
-make clean
+$ make clean
 ``` 
 at the root directory of the project. Then the `./build` directory will be removed. 
 
